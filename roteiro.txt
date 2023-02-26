@@ -1,0 +1,23 @@
+---> Classe:
+
+Employee
+
++ EmployeeId
++ Name
++ JobRole
++ Salary
++ DateOfBirth
++ EmployeeRegistration
+
+
+=== Se tudo der certo:
+
+
+=== User === (Autenticação)
+
++ email/username
++ password
+
+
+---> api (Back-end) ---> PostgreSQL(relacional) - (NoSQLMongoDB), Azure Functions, Azure CosmosDB (NoSQL Cloud), SWA + GitHub Actions
+---> angular (Front-End) Bootstrap, SweetAlert, SWA
