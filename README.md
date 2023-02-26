@@ -1,2 +1,2 @@
 # employee-crud-api
-Aplicação CRUD com api (Live Coding CRUD NodeJS + Angular + PostGreSQL by Glaucia Lemos)
+Aplicação CRUD com API em Node.js que alimentará o Angular (Live Coding CRUD NodeJS + Angular + PostGreSQL by Glaucia Lemos)
