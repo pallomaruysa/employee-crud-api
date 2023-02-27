@@ -2,16 +2,31 @@
   "name": "employee-crud-api",
   "version": "1.0.0",
   "description": "Aplicação CRUD com API em Node.js que alimentará o Angular (Live Coding CRUD NodeJS + Angular + PostGreSQL by Glaucia Lemos)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint0": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter",
+    "prepush": "npm server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/pallomaruysa/employee-crud-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "azure-functions",
+    "express",
+    "github-actions",
+    "swa",
+    "serveless",
+    "azure",
+    "sql",
+    "javascript"
+  ],
+  "author": "Palloma Ruysa",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pallomaruysa/employee-crud-api/issues"
@@ -25,6 +40,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
+    "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.18.2",
     "express-promise-router": "^4.1.1",
     "pg": "^8.9.0"
