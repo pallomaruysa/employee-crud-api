@@ -7,7 +7,7 @@
     "dev": "nodemon",
     "lint0": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter",
     "prepush": "npm server.js",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
